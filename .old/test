@@ -1,0 +1,13 @@
+#!/bin/bash
+
+wget http://www.lottozahlenonline.de/statistik/beide-spieltage/lottozahlen-archiv.php?j=$1 -qO- | tr -d '\n' > tmp/whole
+
+cat tmp/whole | grep -oP '<div class="zahlensuche_nr">[^<]*</div><div class="zahlensuche_datum"[^<]*</div>(<div class="zahlensuche_zahl">[^<]*</div>){6}<div class="zahlensuche_zz">[^<]*</div>' > tmp/divs
+
+cat tmp/divs | sed 's|</div>| |g' |
+               sed 's|<div class="zahlensuche_nr">| |g' |
+               sed 's|<div class="zahlensuche_datum">| |g' |
+               sed 's|<div class="zahlensuche_zahl">| |g' |
+               sed 's|<div class="zahlensuche_zz">| |g' > tmp/data
+
+cat tmp/data | sed -e 's/ //' -e 's/\s\([0-9\]\)\s/ 0\1 /g' -e 's/  / /g'

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+tmp_folder=/tmp/lottozahlen
+#should be one char
+DummySZ=?
