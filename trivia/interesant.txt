@@ -1,3 +1,5 @@
 13 ist die seltenst-gezogene Zahl
 42 ist im oberen Mittelfeld (12. Platz)
 es gab noch nie eine 6er Folge
+die einzige 5er Folge hat mit '2 3 4 5 6' zugleich die niedrigeste summe mit 46
+es gibt 422 mehr ungerade Zahlen als gerade
