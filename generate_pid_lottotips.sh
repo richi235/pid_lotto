@@ -25,7 +25,7 @@ hashed_pids=`echo "ibase=16 ; $hashed_pids" | bc`
 # get lotto tip numbers from hash string
 #      lotto numbers are from 1-49 therefore the
 #      modulo operator and the +1
-#      the 10# is necessary to avaid bash thinks that numbers like 08 are octal 
+#      the 10# is necessary to avoid bash thinks that numbers like 08 are octal 
 #          and therefore throws an error because of, "octal number to big"
 lotto_tip_1=$(( (10#${hashed_pids:0:2} % 49) + 1 ))
 lotto_tip_2=$(( (10#${hashed_pids:2:2} % 49) + 1 ))
