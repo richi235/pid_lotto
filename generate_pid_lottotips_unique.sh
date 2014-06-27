@@ -80,5 +80,5 @@ lotto_tip_string=`echo $lotto_tip_string | sed 's:\n: :'`
 
 
 
-echo $lotto_tip_string
-echo "Supernumber: " $lotto_supernumber
+# echo $lotto_tip_string
+# echo "Supernumber:"$lotto_supernumber
