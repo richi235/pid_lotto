@@ -37,11 +37,15 @@ lotto_tip_6=$(( (10#${hashed_pids:10:2} % 49) + 1 ))
 # superzahl in german lotteria
 lotto_supernumber=${hashed_pids:12:1}
 
+# atm it's possible that 2 tip numbers are the same, the following code avoids this
 
-#echo $lotto_tip_1
-#echo $lotto_tip_2
-#echo $lotto_tip_3
-#echo $lotto_tip_4
-#echo $lotto_tip_5
-#echo $lotto_tip_6
-#echo $lotto_supernumber
+
+
+
+echo $lotto_tip_1
+echo $lotto_tip_2
+echo $lotto_tip_3
+echo $lotto_tip_4
+echo $lotto_tip_5
+echo $lotto_tip_6
+echo $lotto_supernumber
