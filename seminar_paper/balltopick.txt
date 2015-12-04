@@ -1,0 +1,6 @@
+ball_to_pick_1=$(( (10#${hashed pids:0:2 } % 49) + 1 ))
+ball_to_pick_2=$(( (10#${hashed pids:2:2 } % 48) + 1 ))
+ball_to_pick_3=$(( (10#${hashed pids:4:2 } % 47) + 1 ))
+ball_to_pick_4=$(( (10#${hashed pids:6:2 } % 46) + 1 ))
+ball_to_pick_5=$(( (10#${hashed pids:8:2 } % 45) + 1 ))
+ball_to_pick_6=$(( (10#${hashed pids:10:2} % 44) + 1 ))

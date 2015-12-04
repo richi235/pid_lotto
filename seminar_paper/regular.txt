@@ -1,0 +1,4 @@
+div class="zahlensuche_nr">[0-9]+</div>
+<div class="zahlensuche_datum"[^<]*</div>
+(<div class="zahlensuche_zahl">[^<]*</div>){6}
+<div class="zahlensuche_zz">[^<]*</div>

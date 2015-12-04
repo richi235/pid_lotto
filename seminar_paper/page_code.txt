@@ -1,0 +1,11 @@
+...
+<div class="zahlensuche_nr">47</div><div class="
+zahlensuche_datum">23.11.1991</div><div class="
+zahlensuche_zahl">3</div><div class="
+zahlensuche_zahl">9</div><div class="
+zahlensuche_zahl">11</div><div class="
+zahlensuche_zahl">26</div><div class="
+zahlensuche_zahl">36</div><div class="
+zahlensuche_zahl">40</div><div class="
+zahlensuche_zz"></div>
+...
