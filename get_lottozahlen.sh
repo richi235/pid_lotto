@@ -7,7 +7,7 @@ page=http://www.lottozahlenonline.de/statistik/beide-spieltage/lottozahlen-archi
 ##create list of all needed years
 ##stdout=list of needed years
 getYears() {
-  echo $(seq 1955 $(date +"%Y"))
+  seq -s ' ' 1955 $(date +"%Y")
 }
 
 ##extract information inside divs
@@ -32,7 +32,6 @@ deleteEsc() {
 ##concatinate Lottozahlen of all years
 concatYears() {
   echo "--concatenating years"
-  years=$(getYears)
   cat $(getYears) > all 
 }
 
