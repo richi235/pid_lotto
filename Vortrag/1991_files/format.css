@@ -1,0 +1,649 @@
+body { margin: 0; padding: 0; font-family:verdana, geneva, arial, helvetica, sans-serif; font-weight:400; font-size:11px; color:#505367 ;background:#fafafa }
+
+/* LAYOUT */
+#aussenbox			{ margin:5px auto; margin-top:15px; width:1135px; padding:0px; text-align:left; background-color:#fafafa }
+#logo				{ border: 1px solid #f0f0f0; height:100px; background-color:#ffffff }
+#oben 				{ height:15px; }
+#menue_und_inhalt	{ border:1px solid #f0f0f0; float:left; background-color:#ffffff; }
+#menue 				{ width:200px; background:#fafafa; float:left  }
+#rechts 			{ float:right; width:160px; height:600px  }
+#inhalt 			{ width:752px; padding:10px; min-height:480px; background-color:#ffffff; float:right }
+#fuss				{ border-left:1px solid #f0f0f0; border-right:1px solid #f0f0f0; border-bottom:1px solid #f0f0f0; clear:both; height:20px; margin-bottom:10px; background-color:#ffffff }
+/* /LAYOUT */
+
+h1	{ font-size:18px; margin-top:0px }
+h2	{ font-size:12px; }
+h3	{ font-size:12px; }
+hr	{ background-color:#cccccc; height:1px; margin-right:0; text-align:right; border:0px solid blue }
+
+/* FB Gplus Empfehlen weisses Layout */
+a.soc_buttons:link, 
+a.soc_buttons:hover, 
+a.soc_buttons:visited, 
+a.soc_buttons:active 	{ height:21px; width:69px; text-decoration:none; display:block; float:left; margin-right:5px }
+a.soc_buttons:hover 	{ background:#fafafa; }
+
+.gplus_button { border:1px solid #dedede } 
+.fb_button {  border:1px solid #dedede }
+.twitter_button {  border:1px solid #dedede }
+
+.gplus_icon { background-position:0px 0px; border:1px solid #dedede }
+.fb_icon { background-position:-15px 0px; border:1px solid #dedede }
+.twitter_icon { background-position:-30px 0px; border:1px solid #dedede }
+
+.gplus_icon, .fb_icon, .twitter_icon { background-image:url(../grafik/social-buttons.png); background-repeat:no-repeat; width:15px; height:15px; float:left; margin-top:2px; margin-left:2px }
+
+.count_gplus { color:#ca3c29 }
+.count_fb { color:#4362a1 }
+.count_twitter { color:#57c1e7 }
+
+.count_gplus, .count_fb, .count_twitter { float:left; width:50px; text-align:center; font-weight:bold; font-family:verdana, geneva; font-size:10px; margin-top:4px }
+.clear { clear:left }
+/* */
+
+.full_size { width:90% }
+
+.suchfeld	{ float:right; margin-top:64px; margin-right:14px }
+
+.mobil_hinweis	{ border:0; float:left; margin-left:100px; margin-top:23px }
+.wichtiger_hinweis { border:0; float:left; margin-left:270px; margin-top:2px }
+
+.h2_rot { color:#d60000 }
+
+.bold { font-weight:bold }
+
+.logo_bild		{ float:left; width:453px; height:100px }
+.logo_punkte	{ list-style-type:square; color:#d60000; margin-top:0 }
+.li_punkte		{ color:#666666 }
+
+.ohne_symbol { list-style-type:none; }
+
+
+.box { float:left; margin-left:10px; margin-top:11px }
+
+.img_border { border:0 }
+
+.clear_both	{ clear:both }
+
+.ul_zahlen	{ line-height:16px; padding-left:20px; list-style-type:square }
+
+
+
+
+.img_bg	{ border:1px solid #f0f0f0; padding:5px; font-size:10px; margin-right:10px; float:left }
+.img_bg02	{ border:1px solid #f0f0f0; padding:5px; font-size:10px; float:left }
+.img_bg03	{ padding-left:10px; font-size:10px; float:right }
+
+
+.bild_news { float:left; padding-right:10px; padding-bottom:5px }
+.grau_news { color:#aaaaaa; font-size:9px }
+
+
+
+
+/* Spielschein */
+
+.spielschein-typ { border:0; font-size:13px; width:120px; height:30px; cursor:pointer; background:#f0c406; 
+  background-image:-webkit-linear-gradient(top, #f0c406, #e59b02);
+  background-image:-moz-linear-gradient(top, #f0c406, #e59b02);
+  background-image:-ms-linear-gradient(top, #f0c406, #e59b02);
+  background-image:-o-linear-gradient(top, #f0c406, #e59b02);
+  background-image:linear-gradient(to bottom, #f0c406, #e59b02); }
+
+  
+.spielschein-typ02 { border:0; font-size:13px; width:120px; height:30px; cursor:pointer; background:#fae91f; 
+background-image:-webkit-linear-gradient(top, #fae91f, #f3d10e);
+background-image:-moz-linear-gradient(top, #fae91f, #f3d10e);
+background-image:-ms-linear-gradient(top, #fae91f, #f3d10e);
+background-image:-o-linear-gradient(top, #fae91f, #f3d10e);
+background-image:linear-gradient(to bottom, #fae91f, #f3d10e) }
+
+/*
+a.schein:link, 
+a.schein:hover, 
+a.schein:visited, 
+a.schein:active	{ display:block; text-decoration:none; font-size:100%; padding:9px 6px 9px 6px; color:#222222 }
+a.schein:hover 	{ text-decoration:none }
+
+a.schein02:link, 
+a.schein02:hover, 
+a.schein02:visited, 
+a.schein02:active 	{ text-decoration:none; display:block; font-size:100%; padding:9px 6px 9px 6px; color:#222222 }
+a.schein02:hover	{ text-decoration:none; color:#222222 }
+
+
+ul#navigation02		{ margin: 0; padding:0; list-style:none  }
+
+.button {
+  background:#cda600; 
+  background-image:-webkit-linear-gradient(top, #e2b900, #cda600);
+  background-image:-moz-linear-gradient(top, #e2b900, #cda600);
+  background-image:-ms-linear-gradient(top, #e2b900, #cda600);
+  background-image:-o-linear-gradient(top, #e2b900, #cda600);
+  background-image:linear-gradient(to bottom, #f0c406, #e59b02);
+ height:30px; width:120px; text-align:center; font-family:Verdana; font-size:100%; text-decoration:none; margin-right:2px; float:left }
+
+.button:hover {
+  background:#ec9a39;
+  background-image:-webkit-linear-gradient(top, #dca457, #ec9a39);
+  background-image:-moz-linear-gradient(top, #dca457, #ec9a39);
+  background-image:-ms-linear-gradient(top, #dca457, #ec9a39);
+  background-image:-o-linear-gradient(top, #dca457, #ec9a39);
+  background-image:linear-gradient(to bottom, #fae91f, #f3d10e);
+}
+
+.button02 {
+  background:#cda600; 
+  background-image:-webkit-linear-gradient(top, #e2b900, #cda600);
+  background-image:-moz-linear-gradient(top, #e2b900, #cda600);
+  background-image:-ms-linear-gradient(top, #e2b900, #cda600);
+  background-image:-o-linear-gradient(top, #e2b900, #cda600);
+  background-image:linear-gradient(to bottom, #fae91f, #f3d10e);
+ height:30px; width:120px; text-align:center; font-family:Verdana; font-size:100%; text-decoration:none; margin-right:2px; float:left }
+ */
+ 
+/* /Spielschein */
+
+
+/* G */
+
+.cont_rechts { position:fixed; width:160px; height:600px }
+
+@media screen and (max-height:733px), screen and (max-width:1133px) { 
+
+.cont_rechts {position:absolute; width:160px; height:600px }
+
+}
+
+.hinweis { padding:3px; background:#fefe9b; border-bottom:1px solid #eeeeee; border-right:1px solid #eeeeee }
+
+
+.rahmen {border:1px solid #eeeeee }
+
+/* meistgezogene */
+
+.box_w_meist 					{ float:left; margin-left:10px }
+.box_w_lange 					{ }
+.box_w_zahlenkomb 				{ float:left; margin-left:20px; margin-top:10px }
+.box_w_teilsystem_unten 		{ padding-right:17px; float:right; }
+
+.box_w_endziffer_unten			{ float:left; margin-top:10px }
+.box_w_gerade_unten				{ float:left; margin-top:10px }
+.box_w_jahresuebersicht_unten	{ float:left; margin-top:10px }
+
+
+/* archiv + Jahresübersicht */
+.box_w { float:left; width:100%; margin-bottom:10px }
+.box_w02 { float:left; width:100%; margin-bottom:10px }
+
+.box_l_g	{ float:left }
+.box_l_g02	{ float:left; padding-top:3px; }
+
+.box_r_g	{ margin-left:20px; float:left }
+.box_r_g02	{ margin-left:30px; float:left }
+
+
+/* Spielregeln */
+
+.box_w01 { float:left; margin-left:220px; width:200px; height:200px }
+.box_w03 { float:left; margin-left:10px; width:250px; height:250px }
+.box_w04 { float:left; margin-left:90px; width:250px; height:250px }
+
+/* Spielfeldanalyse + Zahlenreihen */
+
+.box_w05	{ margin-left:20px; float:left }
+
+
+
+/* /G */
+
+
+/* KUNDENKARTE */
+.ul_punkte	{ line-height:14px; padding-left:20px; list-style-type:square; color:#d60000 }
+.li_punkt { margin-top:5px }
+.farbe01 { color:#000000 }
+
+
+
+
+/* NAVIGATION */
+a { outline:0 }	/* kein Rand um den Link rum */ 
+
+ul#navigation		{ margin:0; padding:0 }
+ul#navigation li	{ list-style:none; margin-bottom:1px; padding-left:2px; padding-right:2px }
+
+.punkt02	{ margin-top:0px; padding:0px 0px 0px 10px  } /* background:#ffe324; */
+.punkt, .punkt02	{ background-image:url(../grafik/bg2.png); background-repeat:no-repeat; display:block; font-size:1.0em; line-height:2.0em; color:#666666; font-weight:bold } 
+
+a.link:link, 
+a.link:hover, 
+a.link:visited, 
+a.link:active 	{ height:22px; display:block; text-decoration:none; font-size:1.0em;  line-height:2.0em; background:#ffffff; padding:0px 0 0px 3px; color:#444444  }
+a.link:hover 	{ color:#000000; text-decoration:none; background:#f6f6f6 }
+
+a.link02:link, 
+a.link02:hover, 
+a.link02:visited, 
+a.link02:active 	{ text-decoration:none; height:22px; display:block; font-size:1.0em;  line-height:2.0em; background:#f6f6f6; padding:0px 0 0px 3px; color:#444444  }
+a.link02:hover 		{ text-decoration:none; color:#000000; background:#f6f6f6 }
+
+.link:before { content:'\203A'; display:inline; font-size:1.0em; font-family:verdana; color:#888888; margin:0 5px 0 0 }
+.link:hover:before { color:#d60000 }
+
+.link02:before { content:'\203A'; font-weight:bold; display:inline; font-size:1.0em; font-family:verdana; color:#d60000; margin:0 5px 0 0 }
+.link02:hover:before { font-weight:bold; color:#d60000 }
+
+.lottozahlen_mobil { float:right; margin-top:-18px; margin-right:70px }
+/* /NAVIGATION */
+
+
+a:link, 
+a:hover, 
+a:visited, 
+a:active 	{ font-size:11px; color:#d60000; font-weight:normal  }
+a:hover 	{ text-decoration:underline; color:#d60000 }
+
+
+
+/* INDEX - LOTTOZAHLEN */
+.h1_ueberschrift	{ font-size:12px; margin-left:3px; color:#d60000 }
+.span_abstand		{ margin-left:68px; }
+
+#lottozahlen_heute		{ width:320px; float:left }
+#lottozahlen_samstag	{ width:320px; float:left }
+#lottozahlen_mittwoch	{ width:320px; float:left }
+
+.abstand	{  float:left; margin-left:50px }
+
+.stunden_und_minuten	{ color:#d60000; font-size:16px; font-weight:bold }
+
+.naechste_lottoziehung { position:absolute; padding:10px; font-weight:bold; border:1px solid #f0f0f0; z-index:5; width:284px; background:#fefe9b; filter:alpha(opacity=80); opacity:0.8; }
+
+.rahmen_lottozahlen  { position:relative; height:44px; background:#ffffff }
+
+.lottozahlen	{ color:#888888; background:#ffffff; border:1px solid #f5f5f5 }
+.lottozahlen02	{ color:#d60000; background:#ffe324; border:1px solid #ffd919 }
+.lottozahlen03	{ color:#000000; background:#e5e5e5; border:1px solid #dcdcdc }
+.lottozahlen, .lottozahlen02, .lottozahlen03	{ font-size:12px; line-height:2.4em; width:28px; height:28px; text-align:center; font-weight:bold; float:left }
+
+.lottozahlen_aussen   { margin:2px; float:left; width:40px; height:40px }
+
+
+
+.h1_ueberschrift_q	{ font-size:12px; color:#d60000 }
+
+.gewinnquoten	{  }
+
+.gewaehr { margin-top:0px; font-size:9px; color:#999999 }
+/* /INDEX - LOTTOZAHLEN */
+
+
+
+
+/* MUSTER ANALYSE */
+#lotto_muster  { width:324px; float:left }
+.rahmen_lottozahlen_muster  { position:relative; background:#ffffff }
+.lottozahlen_muster   { color:#666666; line-height:2.8em; margin:1px; border:1px solid #ffbfbf; width:32px; height:32px; padding:4px; background:#fefefe; text-align:center; font-weight:bold; float:left }
+
+/* /MUSTER ANALYSE */
+
+/* ZAHLENREIHEN */
+#lotto_zahlenreihe  { width:356px; float:left }
+.lottozahlen_zahlenreihe01   { color:#aaaaaa; line-height:2.8em; margin:1px; border:1px solid #eeeeee; width:32px; height:32px; padding:4px; text-align:center; font-weight:bold; float:left }
+
+.lottozahlen_zahlenreihe   { color:#d60000; line-height:2.8em; margin:1px; border:1px solid #cccccc; width:32px; height:32px; padding:4px; background:#fff191; text-align:center; font-weight:bold; float:left }
+
+/* ZAHLENREIHEN */
+
+
+/*	KALENDER */
+#kalender { background:#fdfdfd; position:relative; margin-left:2px; width:198px }
+.kal_beschr { width:26px; height:26px; line-height:25px; margin:1px; color:#aaaaaa; background:#fcfcfc; text-align:center; float:left }
+
+.normalertag { width:26px; height:26px; line-height:25px; margin:1px; color:#555555; background:#f5f5f5; text-align:center; float:left }
+.ziehungstag { color:#df0000; border:1px solid #f5f5f5; width:24px; height:24px; line-height:23px; margin:1px; background:#f5f5f5; text-align:center; float:left }
+
+.normalertag_heute { color:#555555; background:#ffffff; border:1px solid #df0000; width:24px; height:24px; line-height:23px; margin:1px; text-align:center; float:left }
+.ziehungstag_heute { color:#df0000; border:1px solid #f5f5f5; background:#ffe324; border:1px solid #df0000; width:24px; height:24px; line-height:23px; margin:1px; text-align:center; float:left }
+
+.tdleer { width:26px; height:26px; margin:1px; float:left }
+/*	/KALENDER */
+
+
+
+
+	
+
+/* ZAHLENKOMBINATIONEN */
+
+.absendeknopf03 { height:33px; border:1px solid #cccccc; color:#000000; background:#fff191; cursor:pointer; -webkit-appearance:none }
+
+.tab_zahlenkombinationen { float:left; margin-right:20px }
+
+.td_3x49 { background:#fafafa; width:40px; text-align:center }
+.td_3x49_br	{ font-weight:bold; text-align:center }
+.td_3x49_anzahl { width:50px; font-weight:bold; text-align:center }
+
+.gross_02	{ font-size:12px; font-weight:bold }
+/* /ZAHLENKOMBINATIONEN */
+	
+
+	
+	
+
+
+
+/* ARCHIV */
+
+a.archiv_link:link, 
+a.archiv_link:hover, 
+a.archiv_link:visited, 
+a.archiv_link:active 	{ text-decoration:none; font-weight:normal }
+a.archiv_link:hover 	{ text-decoration:underline }
+
+a.archiv_link02:link, 
+a.archiv_link02:hover, 
+a.archiv_link02:visited, 
+a.archiv_link02:active 	{ text-decoration:underline; color:#d60000 }
+a.archiv_link02:hover 	{ text-decoration:underline }
+
+
+.grau	{ color:#cccccc }
+.grau02	{ color:#888888 }
+.weiss	{ color:#ffffff }
+
+
+
+#gewinnzahlen		{ width:300px; float:left }
+#gewinnzahlen02		{ width:350px; float:left }
+#gewinnzahlen02b	{ width:400px; float:left }
+
+.haeufigkeit_rahmen		{ height:20px; position:relative; margin-bottom:2px }
+
+.haeufigkeit_zeichen_br		{ margin-right:2px; width:180px; padding-left:3px; padding-right:3px  }
+.haeufigkeit_zeichen_br02	{ margin-right:2px; width:230px; padding-left:3px; padding-right:3px  }
+.haeufigkeit_zahl_br		{ width:70px; margin-right:2px; text-align:center }
+
+.haeufigkeit_zahl_br, .haeufigkeit_zeichen_br, .haeufigkeit_zeichen_br02	{ line-height:1.7em; position:relative; height:20px; font-weight:bold; float:left }
+
+
+.haeufigkeit_zeichen	{ margin-right:2px; width:180px; padding-left:3px; padding-right:3px  }
+.haeufigkeit_zeichen02	{ margin-right:2px; width:230px; padding-left:3px; padding-right:3px  }
+.haeufigkeit_zahl		{ background:#fafafa; width:70px; margin-right:2px; text-align:center }
+
+.haeufigkeit_zahl, .haeufigkeit_zeichen, .haeufigkeit_zeichen02	{ line-height:1.7em; position:relative; height:20px; float:left }
+/* /ARCHIV */
+
+
+/* ZAHLEN SUCHE und LOTTOARCHIV */
+#zahlensuche	{  }
+.zahlensuche_rahmen		{ height:20px; position:relative; margin-bottom:2px }
+
+.zahlensuche_hinweis01	{ padding-right:5px; width:20px }
+.zahlensuche_hinweis02	{ padding-right:5px; width:63px }
+.zahlensuche_hinweis03	{ padding-right:5px; width:127px }
+.zahlensuche_hinweis04	{ padding-right:0px; width:20px; margin-left:11px }
+
+.zahlensuche_hinweis01, .zahlensuche_hinweis02, .zahlensuche_hinweis03, .zahlensuche_hinweis04 	{ line-height:1.7em; position:relative; height:20px; text-align:center; font-weight:bold; float:left }
+
+.zahlensuche_nr			{ width:20px;  margin-right:2px; color:#cccccc  }
+.zahlensuche_datum		{ margin-right:2px; padding-left:3px; padding-right:3px  }
+.zahlensuche_zahl		{ background:#f5f5f5; width:20px; margin-right:2px }
+.zahlensuche_zahl02		{ background:#77ee77; width:20px; margin-right:2px }
+.zahlensuche_zz_treffer	{ background:#77ee77; width:20px; margin-left:10px }
+.zahlensuche_zz			{ background:#f0f0f0; width:20px; margin-left:10px }
+.zahlensuche_nr, .zahlensuche_datum, .zahlensuche_zahl, .zahlensuche_zahl02, .zahlensuche_zz, .zahlensuche_zz_treffer	{ line-height:1.7em; position:relative; text-align:center; height:20px; float:left }
+/* /ZAHLEN SUCHE */
+
+
+
+/* ZUFALLSZAHLEN */
+.zufallszahlen_rahmen  { height:20px; position:relative; margin-bottom:2px }
+
+.zufallszahlen_hinweis	{ line-height:2.1em; font-size:14px; font-weight:bold; position:relative; padding-right:5px; width:270px; height:30px; float:left }
+.zufallszahlen_zahl		{ line-height:3em; color:#d60000; font-weight:bold; background:#ffe324; position:relative; width:33px; height:33px; margin-right:2px; float:left; text-align:center  }
+/* /ZUFALLSZAHLEN */
+
+
+
+/* KOSTENRECHNER */
+.gross { font-size:12px; font-weight:bold }
+.hinweis02 { padding:10px; background:#fefe9b; border-bottom:1px solid #eeeeee; border-right:1px solid #eeeeee }
+
+
+
+
+/* MEISTGEZOGENE ZAHLEN */
+
+#box01	{ margin-bottom:50px; width:520px; float:left }
+#box02	{ float:left; width:520px }
+
+.h2_ueberschrift	{ clear:left }
+
+.h_zahlen_rahmen_br		{ margin-bottom:1px; float:left }
+
+.h_zahlen_box_proz_br	{ width:300px; float:left; text-align:right }
+
+.h_zahlen_lottozahl_br	{ width:80px; float:left; text-align:center }
+.h_zahlen_anzahl_br		{ width:100px; float:left; text-align:center }
+
+.h_zahlen_rahmen		{ border-bottom:1px solid #f0f0f0; float:left }
+.h_zahlen_box			{ width:320px; background:#ffffff; float:left }
+.h_zahlen_lottozahl		{ width:50px; float:left; text-align:right }
+.h_zahlen_anzahl		{ width:90px; float:left; text-align:right }
+/* /MEISTGEZOGENE ZAHLEN */
+
+
+
+/* LANGE NICHT GEZOGEN */
+
+
+.a_td02_br	{ padding-left:20px }
+.a_td	{ border-bottom:1px solid #f0f0f0; text-align:center }
+.a_td02	{ border-bottom:1px solid #f0f0f0; padding-left:20px; text-align:center }
+/* /LANGE NICHT GEZOGEN */
+
+
+
+/* ZAHLEN SUCHE & ZUFALLSZAHLEN & TEIL-SYSTEM */
+#gewinntabelle	{ }
+.klammer	{ width:500px; margin-top:38px; margin-left:5px; font-size:14px; color:#888888; float:left }
+.text	{ display:inline }
+.systemschein { margin-left:150px; margin-top:-60px; padding:0px  }
+
+.klammer_system	{ margin-top:38px; margin-left:-30px; font-size:14px; color:#888888; float:left }
+.box_l	{ float:left; text-align:right }
+.box_r	{ padding-top:70px; padding-left:50px }
+
+/* ZAHLEN SUCHE */
+
+
+/* TEIL-SYSTEM */
+#form	{ float:left; margin-bottom:20px }
+.tr_form	{ height:35px; position:relative; width:246px }
+.td_form	{ position:relative; width:35px; height:35px; float:left; background:#fafafa }
+
+.submit01   { background:#e5e5e5; color:#000000 }
+.submit02   { background:#ffe324; color:#d60000 }
+.submit01, .submit02 { font-family:verdana, geneva, arial, helvetica, sans-serif; font-weight:normal; font-size:11px; width:33px; height:33px; margin-top:1px; margin-left:1px; padding:0; border-style:solid; border-width:0px; cursor:pointer; -webkit-appearance:none }
+
+.absendeknopf	{ color:#ff0000; background:#ffffff }
+.absendeknopf02	{ color:#005500; font-size:14px; background:#c2fbc2 }
+.absendeknopf, .absendeknopf02	{ height:33px; width:160px; border:1px solid #cccccc; cursor:pointer; -webkit-appearance:none }
+
+.absende_abstand	{ margin-top:10px  }
+.absende_abstand01	{ margin-top:10px; margin-bottom:10px }
+.absende_abstand02	{ margin-top:10px }
+
+
+
+/* System und Gewinnzahlen */
+.resultat_rahmen  { height:20px; position:relative; margin-bottom:2px }
+
+.resultat_hinweis	{ padding-right:5px; width:200px; font-weight:bold }
+.resultat_zahl		{ background:#f0f0f0; width:20px; margin-right:2px; text-align:center  }
+.resultat_zahl02	{ background:#77ee77; width:20px; margin-right:2px; text-align:center  }
+.resultat_zahl03	{ background:#dddddd; width:20px; margin-right:2px; text-align:center  }
+.zz_hinweis			{ width:20px; margin-left:14px }
+.z_zahl				{ background:#dddddd; width:20px; margin-left:10px; text-align:center  }
+.resultat_hinweis, .resultat_zahl, .resultat_zahl02, .resultat_zahl03, .zz_hinweis, .z_zahl { line-height:1.9em; position:relative; float:left; height:20px }
+
+.system_kaestchen { float:left }
+
+#gewinntabelle	{ float:left; width:350px }
+.rahmen_gewinntabelle	{ height:20px; position:relative; margin-bottom:2px }
+.zaehler	{ background:#ffffff; color:#cccccc }
+.zahl01		{ background:#77ee77 }
+.zahl02		{ background:#fafafa }
+.zahl03		{ background:#dddddd }
+.zaehler, .zahl01, .zahl02, .zahl03	{ line-height:1.9em; position:relative; width:20px; height:20px; float:left; text-align:center; margin-right:2px }
+
+.zahl01b	{ line-height:1.9em; position:relative; float:left; text-align:center; margin-left:5px; text-decoration:underline }
+
+/* /TEIL-SYSTEM */
+
+
+
+
+
+/* VOLL SYSTEM */
+.system_tab { float:left }
+.td_br_links_rot { padding:3px; text-align:left; color:#d60000; font-size:12px; background:#fff191; border-bottom:1px solid #eeeeee; border-right:1px solid #eeeeee; font-weight:bold  }
+
+.td_mitte_rot { padding:3px; width:30px; text-align:center; font-weight:bold; color:#d60000; border-bottom:1px solid #eeeeee; border-right:1px solid #eeeeee; }
+.td_mitte_rot02 { padding:3px; text-align:center; font-weight:bold; color:#d60000; border-bottom:1px solid #eeeeee; border-right:1px solid #eeeeee; }
+
+.system_beispiel { margin-top:75px; margin-left:40px; border:1px solid #f0f0f0; }
+
+.clear_both	{ clear:both }
+/* /VOLL SYSTEM */
+
+
+
+
+/* JAHRESÜBERSICHT + ENDZIFFERGRUPPEN */
+
+.abstand_info { margin-right:5px; margin-bottom:3px }
+
+#tabelle01	{ position:relative; top:20px; left:20px; float:left }
+.rahmen1	{ border-bottom:1px solid #f0f0f0; position:relative; height:14px; margin-bottom:0px; float:left }
+.rahmen2	{ position:relative; height:20px; width:100%; float:left }
+
+.rahmen_endziffer {  float:left }
+.endziffer_br_erste { width:66px; padding-top:2px; padding-bottom:2px; text-align:center; float:left }
+.endziffer_br_mitte { width:69px; padding-top:2px; padding-bottom:2px; border-right:1px solid #fafafa; text-align:center; float:left; background:#fff191 }
+.endziffer_br_letzte { width:56px; padding-top:2px; padding-bottom:2px; text-align:center; background:#fff191; float:left }
+
+.quadrat_br0 { position:relative; width:65px; height:14px; float:left }
+
+.quadrat_br		{  color:#444444; width:70px; background:#e5e5e5 }
+.quadrat_br02	{ color:#444444; width:70px }
+.quadrat_br03	{ color:#444444;  width:56px }
+
+
+.quadrat	{ color:#777777; width:14px }
+.quadrat_b 	{ color:#777777; width:14px; background:#f0f0f0 }
+
+.quadrat_bx	{ color:#aaaaaa; width:14px }
+.quadrat_by { color:#666666; width:14px }
+
+.quadrat_bx2 { background:#f0f0f0; color:#aaaaaa; width:14px }
+.quadrat_by2 { background:#f0f0f0; color:#666666; width:14px }
+
+.quadrat2	{ color:#777777; width:14px; background:#77ee77 }
+
+.quadrat_zz	{ color:#df0000; width:14px; margin-left:2px; border-left:1px solid #cccccc; background:#fafafa }
+.quadrat_zz_legende { color:#df0000; width:14px; background:#fafafa }
+
+.quadrat_ungerade	{ color:#df0000; width:14px }
+.quadrat_trennung	{ color:#000000; width:26px }
+
+.quadrat_br, .quadrat_zz_legende, .quadrat_br02, .quadrat_br03, .quadrat, .quadrat_b, .quadrat_bx, .quadrat_by, .quadrat_bx2, .quadrat_by2, .quadrat2, .quadrat_zz, .quadrat_ungerade, .quadrat_trennung { line-height:1.5em; font-size:9px; position:relative; height:14px; text-align:center; float:left }
+
+.grau { color:#cccccc }
+
+.zahl1 { position:relative; font-family:verdana, geneva, arial, helvetica, sans-serif; font-weight:400;  width:14px; height:14px }
+.lz_datum	{ color:#999999; margin-right:2px; padding-right:2px; float:left }
+.lz_datum02	{ color:#cccccc; float:left; padding-right:2px }
+.lz_datum03	{ color:#999999; padding-right:2px; float:left }
+
+.links_br	{ position:relative; font-size:12px; text-align:center; padding-top:2px; padding-bottom:2px; margin-left:37px; width:350px; background:#fff191; float:left }
+.rechts_br	{ position:relative; font-size:12px; text-align:center; padding-top:2px; padding-bottom:2px; margin-left:25px; width:336px; background:#fff191; float:left }
+/* /JAHRESÜBERSICHT + ENDZIFFERGRUPPEN */
+
+
+
+/* SPIELREGELN */
+a.spielregeln:link, 
+a.spielregeln:hover, 
+a.spielregeln:visited, 
+a.spielregeln:active 	{ line-height:18px; font-size:11px; color:#000000 }
+a.spielregeln:hover 	{ text-decoration:underline; color:#d60000 }
+
+.ul_spielregeln	{ float:left; list-style-type:none; list-style-position:outside; margin-top:0px; margin-left:0px; padding:0; line-height:0.9em }
+.spielschein	{ border:1px solid #f0f0f0; margin-right:20px }
+.spielpunkte	{ line-height:14px; padding:20px }
+.spielpunkte02	{ list-style-type:square; line-height:14px; padding-left:20px }
+
+
+/* Spielregeln + Quoten */
+
+.td_br_links { text-align:left; background:#fff191; font-weight:bold }
+.td_br_mitte { text-align:center; background:#fff191; font-weight:bold }
+.td_br_rechts { text-align:right; background:#fff191; font-weight:bold }
+
+.td_links { text-align:left  }
+.td_mitte { text-align:center }
+.td_rechts { text-align:right }
+
+.td_br_links, .td_br_mitte, .td_br_rechts, .td_links, .td_mitte, .td_rechts { padding:4px; border-bottom:1px solid #eeeeee; border-right:1px solid #eeeeee  }
+
+.border_1 { border-left:1px solid #eeeeee; }
+
+.rot	{ color:#d60000 }
+/* / */
+
+
+
+
+
+
+
+
+/* SITEMAP */
+
+.sitemap_ul { line-height:1.6em }
+.sitemap_li { line-height:0.2em }
+
+a.sitemap:link, 
+a.sitemap:hover, 
+a.sitemap:visited, 
+a.sitemap:active 	{ text-decoration:none; font-size:11px; padding:0px 0 0px 0px; color:#d60000; font-weight:normal }
+a.sitemap:hover 	{ text-decoration:underline; color:#000000; background:#fafafa  }
+/* /SITEMAP */
+
+
+
+
+
+
+
+/* IMPRESSUM */
+.impressum   { position:relative; top:0px; left:0px; width:400px; height:117px; background:#ffffff; border:1px; border-style:solid; border-color:#eeeeee; margin-bottom:20px;  }
+.imp01 {position:absolute; left:0px}
+.imp02 {position:absolute; left:30px}
+.imp03 {position:absolute; left:60px}
+.imp04 {position:absolute; left:90px}
+.imp05 {position:absolute; left:120px}
+.imp06 {position:absolute; left:150px}
+.imp07 {position:absolute; left:180px}
+.imp08 {position:absolute; left:210px}
+.imp09 {position:absolute; left:240px}
+
+a.imp:link, 
+a.imp:hover, 
+a.imp:visited, 
+a.imp:active { text-decoration:none; font-size:11px; color:#888888 }
+
+.copy { margin-left:5px; line-height:18px; color:#888888 }
+/* /IMPRESSUM */

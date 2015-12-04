@@ -1,0 +1,16 @@
+http://www.lottozahlenonline.de/statistik/beide-spieltage/lottozahlen-archiv.php?j=1991
+
+-------- getYears() --------
+besser seq -s ' ' 1955 $(date + "%Y")
+
+-------- grepDivs --------
+grep -oE '<div class="zahlensuche_nr">[0-9]+</div><div class="zahlensuche_datum"[^<]*</div>(<div class="zahlensuche_zahl">[^<]*</div>){6}<div class="zahlensuche_zz">[^<]*</div>'
+
+-------- splitDivs --------
+sed -e 's|</div>[^<]*<div[^>]*>| |g' -e 's|<div[^<]*>||g' -e 's|</div>||g'
+
+-------- addummySZ --------
+sed -e "s|\(.*\) $|\1 ${DummySZ}|"
+
+
+
